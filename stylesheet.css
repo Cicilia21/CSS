@@ -1,0 +1,36 @@
+body {
+    font-family: system-ui;
+    background:white;
+    color: white;
+    text-align: center;
+  }
+  
+  table, td, th {  
+    border-collapse: collapse;  
+  }  
+  
+  .squareGreen {
+    height: 50px;
+    width: 50px;
+    background-color: #8fe38f; 
+  }
+  
+  .squareDarkerGreen {
+    height: 50px;
+    width: 50px;
+    background-color: #0f800f;
+  
+  }
+  
+  .squareBlack {
+      height: 50px;
+      width: 50px;
+      background-color: #000000;
+  }
+  
+  .squareGrey {
+      height: 50px;
+      width: 50px;
+      background-color: #808080;
+  }
+  
