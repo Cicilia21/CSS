@@ -34,3 +34,85 @@ body {
       background-color: #808080;
   }
   
+  .all {
+    display: flex;
+    justify-content: center;
+
+  }
+  .leftEye {
+    height: 50px;
+    width: 90px;
+    background-color: #FFFF00;
+    border-radius: 0% 0% 50% 50%;
+    rotate: 30deg;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45%;
+  }
+  
+  .rightEye {
+    height: 50px;
+    width: 90px;
+    background-color: #FFFF00;
+    border-radius: 0% 0% 50% 50%;
+    rotate: 330deg;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45%;
+  }
+  
+  .purplePointHat {
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 190px solid #A020F0;
+  margin-left: auto;
+  top: -150px;
+  right: 25px;
+  position: absolute;
+  z-index: 2;
+  }
+
+
+
+  .metal {
+    height: 25px;
+    width: 250;
+    background-color: #808080;
+    border-radius: 50% 50% 0% 0%;
+    top: 20px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .hat {
+    height: 25px;
+    width: 250;
+    background-color: #A020F0;
+    border-radius: 0% 0% 50% 50%;
+    margin-left: auto;
+    top: 40px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .head {
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+  }
+  
+ .fill {
+    align-items: center;
+    position: absolute;
+ }
+
+ .fullHat {
+    align-items: center;
+    position: relative;
+ }
